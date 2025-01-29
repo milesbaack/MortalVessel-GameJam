@@ -1,0 +1,102 @@
+[gd_scene load_steps=13 format=3 uid="uid://i8q1ckj4r2ee"]
+
+[ext_resource type="Script" path="res://SCRIPTS/player.gd" id="1_attg4"]
+[ext_resource type="Texture2D" uid="uid://cjd57ccpybuu2" path="res://MortalVessel/vessel.sprite.blue.png" id="2_bein1"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ef5m8"]
+radius = 6.0
+height = 12.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0d85n"]
+atlas = ExtResource("2_bein1")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5w44m"]
+atlas = ExtResource("2_bein1")
+region = Rect2(128, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irvt2"]
+atlas = ExtResource("2_bein1")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t676k"]
+atlas = ExtResource("2_bein1")
+region = Rect2(64, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b83mf"]
+atlas = ExtResource("2_bein1")
+region = Rect2(64, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mlm8y"]
+atlas = ExtResource("2_bein1")
+region = Rect2(128, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07umu"]
+atlas = ExtResource("2_bein1")
+region = Rect2(192, 64, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vluvt"]
+atlas = ExtResource("2_bein1")
+region = Rect2(0, 128, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mwi00"]
+animations = [{
+"frames": [{
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_0d85n")
+}, {
+"duration": 3.0,
+"texture": SubResource("AtlasTexture_5w44m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irvt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t676k")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b83mf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mlm8y")
+}],
+"loop": true,
+"name": &"walkingleft",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07umu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vluvt")
+}],
+"loop": true,
+"name": &"walkingright",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_attg4")
+movement_duration = 0.05
+bounce_duration = 0.05
+bounce_distance = 1.5
+
+[node name="vesselPlayer" type="CharacterBody2D" parent="." groups=["player"]]
+motion_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="vesselPlayer"]
+visible = false
+position = Vector2(0, 3)
+shape = SubResource("CapsuleShape2D_ef5m8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="vesselPlayer"]
+scale = Vector2(0.75, 0.75)
+sprite_frames = SubResource("SpriteFrames_mwi00")
+autoplay = "default"
+frame_progress = 0.627927
