@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://dktv0pl16she2"]
 
-[ext_resource type="Texture2D" uid="uid://cl4ffwf5k81c6" path="res://MortalVessel/Pixel Art Top Down - Basic v1.1.2 (1)/TX Tileset Grass.png" id="1_x7uw5"]
-[ext_resource type="PackedScene" uid="uid://i8q1ckj4r2ee" path="res://vessel_player.tscn" id="2_0ry2g"]
-[ext_resource type="PackedScene" uid="uid://bmxys2n7qi2nt" path="res://fungi_fiend.tscn" id="3_s8e72"]
-[ext_resource type="Texture2D" uid="uid://b4ytplyymkmtb" path="res://MortalVessel/Pixel Art Top Down - Basic v1.1.2 (1)/MortalVessel/funal.ent.idle.animation-Sheet.png" id="4_g7o5c"]
+[ext_resource type="Texture2D" path="res://MortalVessel/Pixel Art Top Down - Basic v1.1.2 (1)/TX Tileset Grass.png" id="1_x7uw5"]
+[ext_resource type="PackedScene" uid="uid://i8q1ckj4r2ee" path="res://vessels/vessel_player.tscn" id="2_0ry2g"]
+[ext_resource type="PackedScene" uid="uid://bmxys2n7qi2nt" path="res://enemies/fungi_fiend.tscn" id="3_s8e72"]
+[ext_resource type="Texture2D" path="res://MortalVessel/Pixel Art Top Down - Basic v1.1.2 (1)/MortalVessel/funal.ent.idle.animation-Sheet.png" id="4_g7o5c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c01vo"]
 texture = ExtResource("1_x7uw5")

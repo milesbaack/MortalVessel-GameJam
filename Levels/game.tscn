@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dng0eu0m8qjef"]
+
+[ext_resource type="PackedScene" uid="uid://dl5xum0nyrw0g" path="res://Levels/green_forest_level_1.tscn" id="1_sp06f"]
+
+[node name="Game" type="Node2D"]
+
+[node name="GreenForestLevel1" parent="." instance=ExtResource("1_sp06f")]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8hykodll7hpb"
-path="res://.godot/imported/back.walking.animation.png-1f907861920f4aca11fbaf66ea3dc1af.ctex"
+uid="uid://b7kyftuo5ne4r"
+path="res://.godot/imported/blue.enemy.mushroom.png-d66393c512dbcafddf795ff5efaa72b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://back.walking.animation.png"
-dest_files=["res://.godot/imported/back.walking.animation.png-1f907861920f4aca11fbaf66ea3dc1af.ctex"]
+source_file="res://MortalVessel/blue.enemy.mushroom.png"
+dest_files=["res://.godot/imported/blue.enemy.mushroom.png-d66393c512dbcafddf795ff5efaa72b3.ctex"]
 
 [params]
 

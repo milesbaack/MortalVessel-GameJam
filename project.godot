@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Pirate Software January 2025 Game Jam - Miles Baack"
-run/main_scene="res://game.tscn"
+run/main_scene="res://Levels/game.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 
 [display]
