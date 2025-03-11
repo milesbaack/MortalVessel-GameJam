@@ -1,3 +1,62 @@
-Hello everyone!
+# Mortal Vessel
 
-I am Miles and this is my first development project. I have had a blast working on this game and hope you find it fun (when it is completed!)
+## Overview
+Mortal Vessel is a top-down 2D roguelike action-RPG set on the chaotic, fungi-infested planet Mykor-Hizah. Play as a mysterious sword - the soul of an amnesiac god - that possesses mortal vessels to navigate the dangerous Fungi Forests and uncover your forgotten past.
+
+> "Are you nervous [Vessel]? Your hands are cold."
+
+## Game Features
+
+- **Unique Player Experience**: You are the weapon, not the wielder. Control mortal vessels to battle through the wilderness.
+- **Roguelike Progression**: If your vessel survives a forest run, they keep all earned ZodiYuk upgrades permanently. If they die, all XP and ZodiYuks are lost.
+- **Camp Management**: Manage your vessels at camp, ensuring they heal from injuries, train, eat, and receive proper mental health care.
+- **Vessel System**: Vessels age as in-game time passes, eventually retiring from battle at 55 and passing away at 69.
+- **Profession System**: Assign different professions to your vessels (Medic, Mycologist, Athlete, etc.) to operate camp buildings.
+- **Cosmana Skills**: Develop powerful abilities like Earth Breathing, Fire Breathing, Lightning Breathing, and Ice Breathing.
+
+## Installation
+
+### System Requirements
+- **OS**: Windows 10+ / macOS 10.14+
+- **Processor**: Dual-core processor, 2.0 GHz
+- **Memory**: 4 GB RAM
+- **Graphics**: OpenGL 3.3 compatible
+- **Storage**: 500 MB available space
+
+### Installation Instructions
+1. Download the latest release from the [Releases](https://github.com/username/mortal-vessel/releases) page
+2. Extract the ZIP file to your desired location
+3. Run `MortalVessel.exe` (Windows) or `MortalVessel.app` (macOS)
+
+## Controls
+
+- **WASD**: Move vessel
+- **Mouse**: Aim
+- **Left Mouse Button**: Attack
+- **Right Mouse Button**: Special ability
+- **Space**: Dodge
+- **E**: Interact
+- **Tab**: Open inventory
+- **Esc**: Pause game
+
+## Development
+
+Mortal Vessel is being developed for the 2025 Pirate Software Game Jam using:
+- **Engine**: Godot
+- **Graphics**: GIMP
+- **Audio**: GarageBand
+
+## Credits
+
+- **Game Design & Development**: Miles N. Baack
+- **Artwork**: Miles N. Baack
+- **Music & Sound Effects**: Miles N. Baack
+- **Inspirations**: Pokémon Emerald, Scavengers Reign, Cult of the Lamb
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+> "Do not fear [Vessel], the forest will return **me** to camp should you fall."
